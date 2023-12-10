@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+figure {
+    margin-top: 10ch;
+}
+
+.icon {
+    width:32px;
+    vertical-align: middle;
+    margin-right: 1em;
+}
+
+.factories {
+    margin-top: 1em;
+}
+
+.factories p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.note {
+    max-width: 80em;
+}

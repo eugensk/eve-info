@@ -1,6 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <title>My PI setup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-test test
+    <main>
+
+        <h3>High Security system Planetary Interaction</h3>
+
+        <section>
+            <hr>
+            <h4>P1->P4 on Barren and Moderate planets</h4>
+
+            <figure>
+                <div class="signs">
+                <p>Storages</p>
+                <p><strong>input</strong> - the storage, into which materials from the lanchpad are moved manually, P2 factories use it both for input and output, P3 factories for input</p>
+                <p><strong>temp</strong> - the storage, where intermediate materials are stored, output for P3 factories and input for the P4 factory</p>
+                <p><strong>output</strong> - the launchpad, the P4 factory uses it for output</p>
+            </div>
+            </figure>
+    
+            <figure>
+                <img src="img/p1.png">
+                <figcaption>Planet 1</figcaption>
+                <div class="factories">
+                    <p>1 x P4 <img src="icons/2875.png" class="icon">Sterile Conduits</p>
+                    <p>2 x P3 <img src="icons/2351.png" class="icon">Smartfab Units</p>
+                    <p>2 x P3 <img src="icons/28974.png" class="icon">Vaccines</p>
+                    <p>4 x P2 <img src="icons/9842.png" class="icon">Miniature Electronics</p>
+                    <p>4 x P2 <img src="icons/3828.png" class="icon">Construction Blocks</p>
+                    <p>4 x P2 <img src="icons/3775.png" class="icon">Viral Agent</p>
+                    <p>4 x P2 <img src="icons/3725.png" class="icon">Livestock</p>
+                </div>
+            </figure>
+            <figure>
+                <img src="img/p2.png">
+                <figcaption>Planet 2</figcaption>
+                <div class="factories">
+                    <p>1 x P4 <img src="icons/2869.png" class="icon">Nano-Factory</p>
+                    <p>2 x P3 <img src="icons/2360.png" class="icon">Industrial Explosives</p>
+                    <p>2 x P3 <img src="icons/17136.png" class="icon">Ukomi Superconductors</p>
+                    <p>4 x P2 <img src="icons/3693.png" class="icon">Fertilizer</p>
+                    <p>4 x P2 <img src="icons/3695.png" class="icon">Polytextiles</p>
+                    <p>4 x P2 <img src="icons/3691.png" class="icon">Synthetic Oil</p>
+                    <p>4 x P2 <img src="icons/9838.png" class="icon">Superconductors</p>
+                </div>
+            </figure>
+            <figure>
+                <img src="img/p3.png">
+                <figcaption>Planet 3</figcaption>
+                <div class="factories">
+                    <p>1 x P4 <img src="icons/2867.png" class="icon">Broadcast Node</p>
+                    <p>4 x P3 <img src="icons/2354.png" class="icon">Neocoms</p>
+                    <p>8 x P2 <img src="icons/2329.png" class="icon">Biocells</p>
+                    <p>8 x P2 <img src="icons/3697.png" class="icon">Silicate Glass</p>
+                </div>
+                <p class="note">This product is not easy, and the setup produces only one kind of P3, while P4 factory needs a few. The solution is reconfiguring. 
+                    When there are enough P3 itemes of a particular kind in TEMP storage, wait untill INPUT storage is empty, and all processing has gone to an end,
+                    then reassign P3 and P2 factories for producing another P3. The first time you do it, you also will have to assign routes for the new materials.
+                </p>
+            </figure>
+            <figure>
+                <img src="img/p4.png">
+                <figcaption>Planet 4</figcaption>
+                <div class="factories">
+                    <p>1 x P4 <img src="icons/2876.png" class="icon">Wetware Mainframe</p>
+                    <p>3 x P3 <img src="icons/2358.png" class="icon">Biotech Research Reports</p>
+                    <p>6 x P2 <img src="icons/2463.png" class="icon">Nanites</p>
+                    <p>6 x P2 <img src="icons/3725.png" class="icon">Livestock</p>
+                    <p>6 x P2 <img src="icons/3828.png" class="icon">Construction Blocks</p>
+                </div>
+                <p class="note">Same note as for Planet 3</p>
+            </figure>
+            <figure>
+                <img src="img/p5.png">
+                <figcaption>Planet 5</figcaption>
+                <div class="factories">
+                    <p>1 x P4 <img src="icons/2871.png" class="icon">Recursive Computing Module</p>
+                    <p>4 x P3 <img src="icons/2346.png" class="icon">Synthetic Synapses</p>
+                    <p>8 x P2 <img src="icons/2312.png" class="icon">Supertensile Plastics</p>
+                    <p>8 x P2 <img src="icons/2319.png" class="icon">Test Cultures</p>
+                </div>
+                <p class="note">Same note as for Planet 3</p>
+            </figure>
+        </section>    
+        <section>
+            <hr>
+            <h4>R0/P1->P3 on the remaining planet, that cannot have P4</h4>
+
+            <figure>
+                <div class="signs">
+                    <p>Storages</p>
+                    <p><strong>input</strong> - the storages, into which materials from the lanchpad are moved manually, P1 and P2 factories use them both for input and output, P3 factories for input</p>
+                    <p><strong>output</strong> - the launchpad, P3 factories use it for output</p>
+                </div>
+            </figure>
+            <figure>
+                <img src="img/p6.png">
+                <figcaption>Planet 6</figcaption>
+                <div class="factories">
+                    <p>2 x P3 <img src="icons/9834.png" class="icon">Guidance Systems</p>
+                    <p>4 x P2 <img src="icons/2328.png" class="icon">Water-Cooled CPU</p>
+                    <p>4 x P2 <img src="icons/9840.png" class="icon">Transmitter</p>
+                    <p>2 x P1 <img src="icons/2399.png" class="icon">Precious Metals</p>
+                    <p>2 x P1 <img src="icons/2389.png" class="icon">Plasmoids</p>
+                </div>
+                <p class="note">I wish there were more planets suitable for P4, still this setup has burned an *enourmous* heap of plasmoids into something useful.</p>
+            </figure>
+        </section>
+    </main>
 </body>
 </html>
